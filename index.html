@@ -9,6 +9,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap">
     <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -17,15 +18,16 @@
 
         <div class="menu-container">
 
-            <a class="menu-logo" href="#"><img src="img/yttd.png" alt="Your Turn to Die"></a>
+            <a data-anime="400" class="menu-logo fadeInDown" href="#"><img src="img/yttd.png"
+                    alt="Your Turn to Die"></a>
 
             <nav class="menu-nav">
 
                 <ul>
 
-                    <li><a href="#enredo">Enredo</a></li>
-                    <li><a href="#personagens">Personagens</a></li>
-                    <li><a href="#historia">História</a></li>
+                    <li data-anime="600" class="fadeInDown"><a href="#enredo">Enredo</a></li>
+                    <li data-anime="800" class="fadeInDown"><a href="#personagens">Personagens</a></li>
+                    <li data-anime="1000" class="fadeInDown"><a href="#historia">História</a></li>
 
                 </ul>
 
@@ -37,14 +39,14 @@
 
     <main class="intro">
 
-        <h1>Your Turn to Die</h1>
-        <p>Um jogo de morte pela maioria</p>
+        <h1 data-anime="1200" class="fadeInDown">Your Turn to Die</h1>
+        <p data-anime="1400" class="fadeInDown">Um jogo de morte pela maioria</p>
 
     </main>
 
     <section class="sobre">
 
-        <h2 id="enredo">Enredo</h2>
+        <h2 data-anime="1600" class="fadeInDown" id="enredo">Enredo</h2>
 
         <div class="sobre-container">
 
@@ -214,6 +216,9 @@
         </div>
 
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
